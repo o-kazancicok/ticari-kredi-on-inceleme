@@ -1,0 +1,44 @@
+name: Kontroller
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  tests:
+    name: Python ${{ matrix.python }} / ${{ matrix.os }}
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 10
+    strategy:
+      fail-fast: false
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+        python: ['3.11', '3.12']
+    env:
+      KREDI_MODE: demo
+      KREDI_ENGINE: native
+      KREDI_DATA_DIR: ${{ runner.temp }}/kredi-state
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python }}
+          cache: pip
+          cache-dependency-path: requirements-lock.txt
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Bagimliliklari kur
+        run: python -m pip install -r requirements-lock.txt
+      - name: Bagimliliklari dogrula
+        run: python -m pip check
+      - name: Ortami kontrol et
+        run: python app.py --check
+      - name: Birim ve PDF testleri
+        run: python -m unittest discover -s tests -v
+      - name: HTTP kontrolleri
+        run: python scripts/verify_http.py
