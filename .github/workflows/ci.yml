@@ -21,7 +21,7 @@ jobs:
     env:
       KREDI_MODE: demo
       KREDI_ENGINE: native
-      KREDI_DATA_DIR: ${{ runner.temp }}/kredi-state
+      KREDI_DATA_DIR: runtime/ci-state
     steps:
       - uses: actions/checkout@v6
       - uses: actions/setup-python@v5
