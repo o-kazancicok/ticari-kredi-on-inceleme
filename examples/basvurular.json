@@ -1,0 +1,217 @@
+[
+  {
+    "id": "1001",
+    "product": "TIC-001",
+    "scenario": "İncelemeye hazır",
+    "applicant": {
+      "title": "Güney Tarım Limited Şirketi",
+      "tax_id": "0000001001",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350"
+    },
+    "customer": {
+      "title": "Güney Tarım Limited Şirketi",
+      "tax_id": "0000001001",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350",
+      "sectors": [
+        {
+          "code": "G.46.31.01",
+          "value": "Sebze ve meyve toptan ticareti",
+          "percent": "100"
+        }
+      ]
+    },
+    "customer_service_error": false,
+    "guarantor": {
+      "entity_type": "individual",
+      "first_name": "Deniz",
+      "last_name": "Yılmaz",
+      "citizen_id": "00000000001"
+    }
+  },
+  {
+    "id": "1002",
+    "product": "TIC-001",
+    "scenario": "Belge bekleniyor",
+    "applicant": {
+      "title": "Akdeniz Gıda Limited Şirketi",
+      "tax_id": "0000001002",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350"
+    },
+    "customer": {
+      "title": "Akdeniz Gıda Limited Şirketi",
+      "tax_id": "0000001002",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350",
+      "sectors": [
+        {
+          "code": "G.46.31.01",
+          "value": "Sebze ve meyve toptan ticareti",
+          "percent": "100"
+        }
+      ]
+    },
+    "customer_service_error": false,
+    "guarantor": {
+      "entity_type": "individual",
+      "first_name": "Deniz",
+      "last_name": "Yılmaz",
+      "citizen_id": "00000000001"
+    }
+  },
+  {
+    "id": "1003",
+    "product": "TIC-001",
+    "scenario": "Bilgi doğrulaması",
+    "applicant": {
+      "title": "Çınar Tarım Limited Şirketi",
+      "tax_id": "0000001003",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350"
+    },
+    "customer": {
+      "title": "Çınar Gıda Limited Şirketi",
+      "tax_id": "0000001003",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350",
+      "sectors": [
+        {
+          "code": "G.46.31.01",
+          "value": "Sebze ve meyve toptan ticareti",
+          "percent": "100"
+        }
+      ]
+    },
+    "customer_service_error": false,
+    "guarantor": {
+      "entity_type": "individual",
+      "first_name": "Deniz",
+      "last_name": "Yılmaz",
+      "citizen_id": "00000000001"
+    }
+  },
+  {
+    "id": "1004",
+    "product": "TIC-001",
+    "scenario": "Kefil bilgileri",
+    "applicant": {
+      "title": "Bereket Gıda Limited Şirketi",
+      "tax_id": "0000001004",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350"
+    },
+    "customer": {
+      "title": "Bereket Gıda Limited Şirketi",
+      "tax_id": "0000001004",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350",
+      "sectors": [
+        {
+          "code": "G.46.31.01",
+          "value": "Sebze ve meyve toptan ticareti",
+          "percent": "100"
+        }
+      ]
+    },
+    "customer_service_error": false,
+    "guarantor": {
+      "entity_type": "individual",
+      "first_name": "Deniz",
+      "last_name": "Yılmaz",
+      "citizen_id": ""
+    }
+  },
+  {
+    "id": "1005",
+    "product": "TIC-001",
+    "scenario": "Kayıt sorgulaması",
+    "applicant": {
+      "title": "Maviova Tarım Limited Şirketi",
+      "tax_id": "0000001005",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350"
+    },
+    "customer": {
+      "title": "Maviova Tarım Limited Şirketi",
+      "tax_id": "0000001005",
+      "legal_form": "LIMITED",
+      "foundation_date": "2020-06-15",
+      "activity": "Sebze ve meyve toptan ticareti",
+      "nace": "463101",
+      "address": "Merkez Mahallesi, Çınar Sokak 12, Kumluca / Antalya",
+      "phone": "0000000000",
+      "email": "firma@example.invalid",
+      "zip_code": "07350",
+      "sectors": [
+        {
+          "code": "G.46.31.01",
+          "value": "Sebze ve meyve toptan ticareti",
+          "percent": "100"
+        }
+      ]
+    },
+    "customer_service_error": true,
+    "guarantor": {
+      "entity_type": "individual",
+      "first_name": "Deniz",
+      "last_name": "Yılmaz",
+      "citizen_id": "00000000001"
+    }
+  }
+]

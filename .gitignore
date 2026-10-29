@@ -1,0 +1,26 @@
+.venv/
+.deps/
+__pycache__/
+*.pyc
+runtime/
+.env
+.env.*
+!.env.example
+_yedekler/
+*.sqlite
+*.sqlite3
+*.sqlite3-*
+*.db
+*.db-*
+*.log
+.pytest_cache/
+.coverage
+htmlcov/
+!*.example
+
+# Local IDE state and generated bundles
+.idea/
+.vscode/
+*.iml
+outputs/
+*.zip

@@ -1,0 +1,3 @@
+# Local environment settings and TXT/PDF document intake.
+pypdf>=5,<7
+python-dotenv>=1,<2

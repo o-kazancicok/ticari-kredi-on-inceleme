@@ -1,0 +1,83 @@
+{
+  "dataset": "five-handcrafted-synthetic-cases-v1",
+  "mode": "deterministic-demo",
+  "warning": "Not an LLM quality benchmark, not a bank pilot. Small authored dataset; no real-world generalization claim.",
+  "cases": [
+    {
+      "application_id": "1001",
+      "expected": {},
+      "actual": {},
+      "passed": true,
+      "report_status": "uzman_incelemesine_hazir"
+    },
+    {
+      "application_id": "1002",
+      "expected": {
+        "document_mali_tablo": "eksik"
+      },
+      "actual": {
+        "document_mali_tablo": "eksik"
+      },
+      "passed": true,
+      "report_status": "tamamlanmasi_gereken_isler_var"
+    },
+    {
+      "application_id": "1003",
+      "expected": {
+        "title": "dogrulama_gerekli"
+      },
+      "actual": {
+        "title": "dogrulama_gerekli"
+      },
+      "passed": true,
+      "report_status": "tamamlanmasi_gereken_isler_var"
+    },
+    {
+      "application_id": "1004",
+      "expected": {
+        "guarantor": "eksik"
+      },
+      "actual": {
+        "guarantor": "eksik"
+      },
+      "passed": true,
+      "report_status": "tamamlanmasi_gereken_isler_var"
+    },
+    {
+      "application_id": "1005",
+      "expected": {
+        "title": "kontrol_edilemedi",
+        "tax_id": "kontrol_edilemedi",
+        "legal_form": "kontrol_edilemedi",
+        "foundation_date": "kontrol_edilemedi",
+        "sector": "kontrol_edilemedi",
+        "address": "kontrol_edilemedi"
+      },
+      "actual": {
+        "title": "kontrol_edilemedi",
+        "tax_id": "kontrol_edilemedi",
+        "legal_form": "kontrol_edilemedi",
+        "foundation_date": "kontrol_edilemedi",
+        "sector": "kontrol_edilemedi",
+        "address": "kontrol_edilemedi"
+      },
+      "passed": true,
+      "report_status": "tamamlanmasi_gereken_isler_var"
+    }
+  ],
+  "issue_precision": 1.0,
+  "issue_recall": 1.0,
+  "source_presence_coverage": 1.0,
+  "source_presence_note": "Measures reference presence only; not independent source truth verification.",
+  "resume_passed": true,
+  "resume_changes": [
+    {
+      "id": "document_mali_tablo",
+      "label": "mali_tablo",
+      "before": "eksik",
+      "after": "uygun"
+    }
+  ],
+  "real_model_tested": false,
+  "measured_time_saving": null
+}

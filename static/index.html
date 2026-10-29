@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Kredi Dosyası | Ön İnceleme</title><link rel="stylesheet" href="/style.css"></head>
+<body>
+<aside class="sidebar">
+ <a class="brand" href="/" aria-label="Ana sayfa"><span class="brand-mark">K</span><span>KREDİ DOSYASI<small>ÖN İNCELEME ASİSTANI</small></span></a>
+ <div class="side-label">ÇALIŞMA ALANI</div><div class="nav-active">◫ &nbsp; Başvuru inceleme</div>
+ <div class="side-label cases-label">BAŞVURULAR <span>05</span></div><div id="applications"></div>
+ <div class="sidebar-bottom"><span class="dot"></span> Yerel çalışma alanı<small>Başvuru ve belge yönetimi</small></div>
+</aside>
+<main>
+ <header><div>OPERASYON <span>/</span> TİCARİ KREDİLER</div><span id="mode" class="mode">Yükleniyor</span></header>
+ <div class="page">
+  <div class="intro"><div><div class="eyebrow">DOSYADAN BULGUYA, KAYNAĞIYLA.</div><h1>Başvuru ön inceleme</h1><p>Eksikleri belirle. Bilgileri karşılaştır. İncelemeyi kaldığın yerden sürdür.</p></div><div class="date">İNCELEME TARİHİ<strong id="asof">—</strong></div></div>
+  <div class="notice"><span>i</span><p>Ön inceleme bulguları kaynak kayıtlarla birlikte değerlendirilir. Nihai değerlendirme yetkili birim tarafından yapılır.</p></div>
+  <section class="application-card"><div class="app-heading"><div><div class="eyebrow" id="app-number">BAŞVURU</div><h2 id="company">—</h2><p id="scenario">—</p></div><div class="actions"><a id="download" class="button secondary hidden" href="#">Raporu indir ↓</a><button id="review" class="primary">Ön incelemeyi başlat →</button></div></div><div class="app-meta"><span>Ürün <b>İşletme Kredisi</b></span><span>Prosedür <b>TIC-001 · v1.0</b></span><span>Kapsam <b>Tüzel firma</b></span></div></section>
+  <div id="error" class="error hidden" role="alert"></div>
+  <div id="stats" class="stats"></div>
+  <div id="model-usage"></div>
+  <div class="workspace"><section class="report-panel"><div class="tabs"><button class="tab selected" data-tab="findings">Kontrol sonuçları</button><button class="tab" data-tab="documents">Belgeler</button><button class="tab" data-tab="trace">İşlem akışı</button><button class="tab" data-tab="policy">Prosedür</button><button class="tab" data-tab="logs">İşlem günlüğü</button></div>
+   <div id="report-status"></div><div id="changes"></div><div id="content"></div>
+  </section>
+  <aside class="right-panel"><section class="task-panel"><div class="panel-eyebrow">SONRAKİ ADIM</div><h3>Tamamlanacak işler</h3><div id="tasks"><p class="muted">İnceleme sonrası gerekli işler burada listelenir.</p></div></section>
+   <section class="chat-panel"><div class="panel-eyebrow">BAŞVURU BAĞLAMI KORUNUR</div><h3>İncelemeye devam et</h3><div id="messages" aria-live="polite"><p class="chat-note">“Eksikleri göster”, “Tekrar incele” veya “Belge tarihi kuralı nedir?” yazabilirsin.</p></div><form id="chat-form"><label class="sr-only" for="message">Mesajınız</label><input id="message" placeholder="Başvuru hakkında sor…" maxlength="2000" required><button aria-label="Mesajı gönder" type="submit">↑</button></form><small>Başvuru bağlamı <span id="chat-mode">korunuyor</span></small></section>
+  </aside></div>
+  <footer><span>KREDİ DOSYASI / 1.0</span><span>Her bulgu bir kaynağa dayanır.</span></footer>
+ </div>
+</main><script src="/app.js"></script>
+</body></html>

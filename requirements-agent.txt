@@ -1,0 +1,4 @@
+-r requirements.txt
+langgraph>=1,<2
+# Optional stdio MCP adapter; the web agent invokes the same tools locally.
+fastmcp>=2,<5
